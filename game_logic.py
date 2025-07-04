@@ -1,6 +1,7 @@
 import random
 from ascii_art import STAGES
 
+
 # List of secret words
 WORDS = ["python", "git", "github", "snowman", "meltdown"]
 
@@ -36,7 +37,7 @@ def play_game():
 
         # Prompt user for one guess (logic to be enhanced later)
         guess = input("Guess a letter: ").lower()
-        if guess in secret_word:
+        if len(guess) == 1 and guess.isalpha() and guess in secret_word:
             guessed_letters.append(guess)
         else:
             mistakes += 1

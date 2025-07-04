@@ -5,7 +5,7 @@ STAGES = [
       ___
      /___\\
      (o o)
-     ( : )
+    \\( : )/
      ( : )
      """,
      # Stage 1: Bottom part starts melting
@@ -13,7 +13,7 @@ STAGES = [
       ___
      /___\\
      (o o)
-     ( : )
+     ( : )/
      """,
      # Stage 2: Only the head remains
      """
